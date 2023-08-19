@@ -16,7 +16,6 @@ def speak(text, rate = 180): # Function to speak any text using the voice and ra
 	engine.say(text)
 	engine.runAndWait()
 
-
 def Wolfram(query):
 	api_key = "633HQW-K4EKPE6P8G"
 	
